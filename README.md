@@ -37,3 +37,6 @@ app.prepare().then(() => {
   server.use(bodyParser.json())
 })
 ```
+
+실행방법은 간단합니다.
+프로젝트를 클론한뒤 커멘드 창에서 프로젝트 폴더 안으로 들어간뒤 npm run dev 명령어를 입력합니다.

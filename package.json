@@ -7,11 +7,18 @@
     "start": "cross-env NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
     "cross-env": "^7.0.2",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
     "next": "latest",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "request": "^2.88.2",
+    "styled-components": "^5.2.1"
   },
   "license": "MIT"
 }
